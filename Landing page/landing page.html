@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreeLearningCourse</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">FreeLearningCourse</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Welcome to FreeLearningCourse</h1>
+                <p>Your gateway to quality education at no cost. Explore our courses and enhance your knowledge.</p>
+                <a href="#courses" class="btn-primary">Start Learning</a>
+            </div>
+            <div class="auth-buttons">
+                <a href="#login" class="btn-secondary">Login</a>
+                <a href="#signup" class="btn-secondary">Sign Up</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Login Section -->
+    <section id="login" class="auth-form">
+        <h2>Login</h2>
+        <form action="#" method="POST">
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit" class="btn-primary">Login</button>
+            <a href="#home" class="close">X</a>
+        </form>
+    </section>
+
+    <!-- Sign Up Section -->
+    <section id="signup" class="auth-form">
+        <h2>Create an Account</h2>
+        <form action="#" method="POST">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit" class="btn-primary">Sign Up</button>
+            <a href="#home" class="close">X</a>
+        </form>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <h2>Featured Courses</h2>
+        <div class="course-grid">
+            <div class="course-item">
+                <img src="F:\codsoft\java.png" alt="Introduction to Java">
+                <h3>Introduction to Java</h3>
+                <p>Master the basics of Java programming with this comprehensive introductory course.</p>
+                <a href="enroll.html?course=Java" class="btn-secondary">Enroll Now</a>
+            </div>
+            <div class="course-item">
+                <img src="F:\codsoft\python.jpg" alt="Introduction to Python">
+                <h3>Introduction to Python</h3>
+                <p>Learn Python from the ground up and start building powerful applications.</p>
+                <a href="enroll.html?course=Python" class="btn-secondary">Enroll Now</a>
+            </div>
+            <div class="course-item">
+                <img src="F:\codsoft\c.jpg" alt="Introduction to C">
+                <h3>Introduction to C</h3>
+                <p>Get started with C programming and understand fundamental concepts.</p>
+                <a href="enroll.html?course=C" class="btn-secondary">Enroll Now</a>
+            </div>
+            <div class="course-item">
+                <img src="F:\codsoft\web.jpeg" alt="Web Development">
+                <h3>Web Development</h3>
+                <p>Learn to build responsive and modern websites using HTML, CSS, and JavaScript.</p>
+                <a href="enroll.html?course=WebDevelopment" class="btn-secondary">Enroll Now</a>
+            </div>
+            <div class="course-item">
+                <img src="F:\codsoft\ml.jpg" alt="Machine Learning">
+                <h3>Machine Learning</h3>
+                <p>Explore the world of machine learning with this beginner-friendly course.</p>
+                <a href="enroll.html?course=MachineLearning" class="btn-secondary">Enroll Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>FreeLearningCourse is committed to providing free, high-quality education to everyone. We believe in empowering individuals through accessible learning resources and expert guidance.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, feel free to reach out to us.</p>
+        <form action="#" method="POST">
+            <input type="text" placeholder="Your Name" required><br><br>
+            <input type="email" placeholder="Your Email" required><br><br>
+            <textarea placeholder="Your Message" required></textarea><br><br>
+            <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 FreeLearningCourse. All rights reserved.</p>
+    </footer>
+</body>
+</html>
